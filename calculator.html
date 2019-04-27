@@ -1,0 +1,165 @@
+<!doctype html>
+	<html lang="en">
+		<head> 
+		
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<title>Photographers Club</title>
+		
+		</head>
+
+		<body>
+<!-- This is the navigation bar -->
+			<div class="topnav">
+				<a href="index.html">Home</a>
+				<a class="active" href="calculator.html">Equipments</a>
+				<a href="element.html">Contacts</a>
+				<a href="dynamic.html">Dynamic</a>
+			</div>
+			
+<!--- A small image added -->
+			<img class="header" src="image2.jpg" alt="Photographer">
+<!-- From here are the description of the page -->
+			<br>	
+			<h1>The Equipments</h1>
+			<br>
+			
+			<p>	There are some basic items that have to be bought for official photography: You gotta realize that to be a photographer you have to have proper equipments. Just a camera will do the trick. But, to get some more intense shots you need some more gear. There are a lot of equipments and brands to choose from. And, all of them vary from price to quality.
+			<br> <br>
+			</p>
+<!-- A list added -->
+			<ul>
+				<li>Camera Tripod</li>
+				<li>Remote Shutter Release</li>
+				<li>Prime Lens</li>
+				<li>External Flash (Speedlight)</li>
+				<li>AA Batteries + Battery Charger</li>
+				<li>SD Memory Cards</li>
+				<li>Camera Cleaning Kit</li>
+				<li>Camera Strap</li>
+				<li>And, of course a camera</li>
+			</ul>  
+			<p>
+			<br>
+				So, you can see that to be a newbie photographer youo do have to spend a few bucks. But, it is all worth it. <br><br>
+				Now that you have a list of what to buy. You need to consider where to buy your equipments from. There are many physical and online
+				shopping places and sites to choose from. But, we suggest that you, first of all, figure out a brand and model of an item you want
+				to buy from and go through different places to check the price range and buy the comparatively cheaper one. Many times they throw
+				out deals. Grab on to them. They will be your best friends in this sector.
+			<br>
+				To make things more easier for you, we will provide the most preferred choice by us..
+			<br><br>
+			
+<!--This is a link to a website -->			
+			<a href="https://www.amazon.com/" target="_blank">AMAZON!!!</a>
+			
+			<br><br>
+				Trust us. If you don't already know about this site, you will love it.
+			</p>
+			<br>
+			
+			<h2>The Amount</h2>
+			
+			<br>
+			<p>	Now, it's time to get down with business. To calculate how much it might cost you to afford a quality type camera and other utilities follow the link. it should help you determine the cost. here is a calculator down below to help with your cost price.
+			</p>
+<!--This is the Calculator -->
+			<p1>
+				<input id="x">
+				<input id="y">
+
+					<button id="go1">+</button>
+					<button id="go2">-</button>
+					<button id="go3">x</button>
+					<button id="go4">/</button>
+					<button id="go5">&#8730</button>
+
+
+			<div id="result"></div>
+
+			</p1>
+
+<!-- This is the addition J.Script -->
+			<script>
+				document.getElementById('go1').addEventListener('click', add);
+
+				function add() {
+    			var x = Number(document.getElementById('x').value);
+    			var y = Number(document.getElementById('y').value);
+
+    			document.getElementById('result').innerHTML = x+y;
+ 
+    			return false;
+				}
+
+				document.getElementById('go1').addEventListener('click', add);
+			</script>
+
+<!-- This is the subtract J.Script -->
+			<script>
+				document.getElementById('go2').addEventListener('click', sub);
+
+				function sub() {
+    			var x = Number(document.getElementById('x').value);
+    			var y = Number(document.getElementById('y').value);
+
+    			document.getElementById('result').innerHTML = x-y;
+ 
+   				 return false;
+				}
+
+				document.getElementById('go2').addEventListener('click', sub);
+			</script>
+
+<!-- This is the multiply J.Script -->
+			<script>
+				document.getElementById('go3').addEventListener('click', multiple);
+
+				function multiple() {
+   				var x = Number(document.getElementById('x').value);
+    			var y = Number(document.getElementById('y').value);
+
+    			document.getElementById('result').innerHTML = x*y;
+ 
+    			return false;
+				}
+
+				document.getElementById('go3').addEventListener('click', multiple);
+			</script>
+
+<!-- This is the division J.Script -->
+			<script>
+				document.getElementById('go4').addEventListener('click', divide);
+
+				function divide() {
+    			var x = Number(document.getElementById('x').value);
+    			var y = Number(document.getElementById('y').value);
+
+    			document.getElementById('result').innerHTML = x/y;
+			 
+			    return false;
+				}
+
+				document.getElementById('go4').addEventListener('click', divide);
+			</script>
+
+<!-- This is the square root J.Script -->
+			<script>
+				document.getElementById('go5').addEventListener('click', sqrt);
+
+				function sqrt() {
+   				var x = Number(document.getElementById('x').value);
+
+  				document.getElementById("result").innerHTML = Math.sqrt(x);
+   				return false;
+				}
+
+				document.getElementById('go5').addEventListener('click', sqrt);
+			</script>
+
+			<br><br>
+<!-- This are link to previous and next page -->			
+			<a href="index.html">--Prev</a>
+			<a href="element.html">Next--</a>
+		</body>
+	</html>

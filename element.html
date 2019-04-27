@@ -1,0 +1,113 @@
+<!doctype html>
+	<html lang="en">
+		<head> 
+		
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<title>Photographers Club</title>
+		
+		</head>
+
+		<body>
+<!-- This is the navigation bar -->
+			<div class="topnav">
+				<a href="index.html">Home</a>
+				<a href="calculator.html">Equipments</a>
+				<a class="active" href="element.html">Contacts</a>
+				<a href="dynamic.html">Dynamic</a>
+			</div>
+
+<!-- an image -->
+			<img class="header" src="image3.jpg" alt="elementary">
+			<h1>Getting Started</h1>
+			<br>
+
+			<p>Now that you have your equipments and you want to start photography you need to plan out some aspects  on how to start. You can't just go outside and start shooting pictures. You might get pictures but it is very unlikely that they will come out as better as you have expected. So, to get started you need to know about lights, perspective, shadow, focus, fill and so on. It is difficult for us to teach you all this stuff in a website. You need a real life experience for that type of knowledge. For that, you can either go to any classes or follow someone professional to learn on hand. We will provide some crash courses and people for these type of concerns down below.
+			</p>
+
+<!--The Object/attribute Java Script -->
+		
+			<p id="demo1"></p>
+			<p id="demo2"></p>
+			<p id="demo3"></p>
+			<p id="demo4"></p>
+			<p id="demo5"></p>
+
+			<script>
+				var txt1 = {name:"Ashley", age:"40", group:"Wedding", position:"Expert", contribution:"10 years"}
+				var txt2 = {name:"John", age:"25", group:"Fashion", position:"Expert", contribution:"8 years"}
+				var txt3 = {name:"Simon", age:"30", group:"Food", position:"Expert", contribution:"6 years"}
+				var txt4 = {name:"Jane", age:"32", group:"Landscape", position:"Expert", contribution:"10 years"}
+				var txt5 = {name:"Xander", age:"45", group:"Travel", position:"Expert", contribution:"15 years"}
+	
+				document.getElementById("demo1").innerHTML = txt1.name + " is " + txt1.age + " years old and is in charge of  " + txt1.group + " group. Her position is " + txt1.position + " because of her " + txt1.contribution + " of experience";
+				document.getElementById("demo2").innerHTML = txt2.name + " is " + txt2.age + " years old and is in charge of  " + txt2.group + " group. His position is " + txt2.position + " because of his " + txt2.contribution + " of experience";
+				document.getElementById("demo3").innerHTML = txt3.name + " is " + txt3.age + " years old and is in charge of  " + txt3.group + " group. His position is " + txt3.position + " because of his " + txt3.contribution + " of experience";
+				document.getElementById("demo4").innerHTML = txt4.name + " is " + txt4.age + " years old and is in charge of  " + txt4.group + " group. Her position is " + txt4.position + " because of her " + txt4.contribution + " of experience";
+				document.getElementById("demo5").innerHTML = txt5.name + " is " + txt5.age + " years old and is in charge of  " + txt5.group + " group. His position is " + txt5.position + " because of his " + txt5.contribution + " of experience";
+			</script>
+
+			<h1>Member Contacts</h1>
+
+			<p>To have a clear view of the group admins please follow the chart below for a more clear concept</p>
+			
+<!-- A table consisting the Java Script contents -->
+
+			<table id="group">
+				<tr>
+					<th>Name </th>
+					<th>Age</th> 
+					<th>Group</th>
+					<th>Position</th>
+					<th>Contribution</th>
+				</tr>
+				
+				<tr>
+					<td>Ashley</td>
+					<td>40</td>
+					<td>Wedding</td>
+					<td>Expert</td>
+					<td>10 years</td>
+				</tr>
+				
+				<tr>
+					<td>John</td>
+					<td>25</td>
+					<td>Fashion</td>
+					<td>Expert</td>
+					<td>8 years</td>
+				</tr>
+				
+				<tr>
+					<td>Simon</td>
+					<td>30</td>
+					<td>Food</td>
+					<td>Expert</td>
+					<td>6 years</td>
+				</tr>
+				
+				<tr>
+					<td>Jane</td>
+					<td>32</td>
+					<td>Landscape</td>
+					<td>Expert</td>
+					<td>10 yea</td>
+				</tr>
+				
+				<tr>
+					<td>Xander</td>
+					<td>45</td>
+					<td>Travel</td>
+					<td>Expert</td>
+					<td>15 years</td>
+				</tr>
+				
+			</table>
+
+			<br><br>
+<!-- This are link to previous and next page -->			
+			<a href="calculator.html">--Prev</a>
+			<a href="dynamic.html">Next--</a>
+
+		</body>
+	</html>

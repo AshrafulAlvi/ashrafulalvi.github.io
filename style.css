@@ -1,0 +1,151 @@
+			.topnav {
+				background-color:  transparent;
+				overflow: hidden;
+				}
+			.topnav a {
+				float: left;
+				color: #6666ff;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+				font-size: 17px;
+				}
+			.topnav a.hover {
+				background-color: #ddd;
+				color: black;
+				}
+			.topnav a.active {
+				background-color: #5c5c8a;
+				color: white;
+				}
+			a:link 
+				{color: red;}
+			a:visited 
+				{color: #99ccff;}
+			a:hover 
+				{color: hotpink;}
+			a:active 
+				{color: blue;}
+			body
+				{background: url(bgimage.jpg) no-repeat center fixed;
+				backgroud-size: cover;
+				background-color: white;}		
+			h1
+				{font-family: Futura, Trebuchet MS, Arial, sans-serif;
+				font-size: 50px;
+				color: white;
+				text-align: center;}
+			h2
+				{font-family: Futura, Trebuchet MS, Arial, sans-serif;
+				font-size: 40px;
+				color: white;
+				text-align: center;}
+			h3
+				{font-family: Futura, Trebuchet MS, Arial, sans-serif;
+				font-size: 30px;
+				color: white;
+				text-align: center;}		
+			p
+				{font-family: Book Antiqua;
+				font-size: 20px;
+				color: white;}
+			p.hideshow
+				{font-family: Book Antiqua;
+				font-size: 20px;
+				color: white;}
+			p.resource
+				{font-family: Book Antiqua;
+				font-size: 20px;
+				color: white;}
+			img.about
+				{float: left;
+				margin-right: 10px;
+				margin-bottom: 10px;
+				width: 740px;
+				height: 530px;}
+			img.header
+					{width: 1332px;
+					height: 700px;
+					padding-top: 5px;
+				}
+			video
+				{float: right;
+				margin-left: 10px;
+				margin-bottom: 5px;
+				width: 880px;
+				height: 500px;}
+			ul li{
+					font-family: Book Antiqua;
+					font-size: 20px;
+					color: white;
+				}
+			#group {
+				font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+				border-collapse: collapse;
+				width: 100%;
+				color: white;
+				text-align: center;
+				font-size: 18px;
+				}			
+			#group td, #group th {
+				border: 1px solid #ddd;
+				padding: 8px;}			
+			#group tr:nth-child(even)
+				{background-color: #4d4d4d;}			
+			#group th {
+				padding-top: 12px;
+				padding-bottom: 12px;
+				text-align: center;
+				background-color: #7979d2;
+				color: #00264d;
+				font-size: 25px;}
+			div.human
+				{font-family: Book Antiqua;
+				font-size: 20px;
+				color: white;}
+			#result 
+					{font-family: Book Antiqua;
+					font-size: 40px;
+					color: white;
+				}
+				
+				#x {
+					height: 40px;
+					font-size: 25px;
+
+				}
+				#y {
+					height: 40px;
+					font-size: 25px;
+
+				}
+				#go1 {
+					height: 40px;
+					width: 40px;
+					font-size: 25px;
+
+				}
+				#go2 {
+					height: 40px;
+					width: 40px;
+					font-size: 25px;
+
+				}
+				#go3 {
+					height: 40px;
+					width: 40px;
+					font-size: 25px;
+
+				}
+				#go4 {
+					height: 40px;
+					width: 40px;
+					font-size: 25px;
+
+				}
+				#go5 {
+					height: 40px;
+					width: 40px;
+					font-size: 25px;
+
+				}

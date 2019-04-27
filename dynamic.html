@@ -1,0 +1,148 @@
+<!doctype html>
+	<html lang="en">
+		<head> 
+		
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<title>Photographers Club</title>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+//This is the hide and show J Query
+			
+			$(document).ready(function(){
+  			$("#hide").click(function(){
+   			$("p.hideshow").hide();
+ 			});
+  			$("#show").click(function(){
+    		$("p.hideshow").show();
+  			});
+			});
+		</script>
+
+		<script>
+//This is the list style changing J Query
+			function myFunction1() {
+  			document.getElementById("events").style.listStyle = "decimal inside";}
+		</script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+//This is the toggle J Query+
+			$(document).ready(function(){
+  			$("#button").click(function(){
+    		$("p.resource").toggle();
+  			});
+			});
+		</script>
+		
+		</head>
+
+		<body>
+<!-- This is the navigation bar -->
+			<div class="topnav">
+				<a href="index.html">Home</a>
+				<a href="calculator.html">Equipments</a>
+				<a href="element.html">Contacts</a>
+				<a class="active" href="dynamic.html">Dynamic</a>
+			</div>
+<!-- an image -->
+			<img class="header" src="image4.jpg" alt="groupmates">
+			<br>
+
+			<h1>Supporting Foundations</h1>
+
+			<p>Even though we do not charge anyone for registration, we do have outside sources for us to continue with our club, our family. Many respected and loving people in our society donates for our club. And, we really appreciate the contributions they make for our club. It can be done financially, mentally or physically. We have a Patreon account in the name of our club. Many people subscribes to our facebook page, Youtube page and also Patreon page and supports us. This is also one of the way we can communicate to our society. These links are given below if you want to take a look at our pages or if you want to subscribe to us:
+			</p>
+<!-- This are the external links -->
+			<p>For facebook: Click <a href="https://www.facebook.com/" target="_blank">here</a>
+			<br>
+			For Youtube: Click <a href="https://www.youtube.com/" target="_blank">here</a>
+			<br>
+			For Patreon: Click <a href="https://www.patreon.com/" target="_blank">here</a>
+			</p>
+
+			<h2>Activities</h2>
+
+			<p>We typically have events going on almost every day. It is not mandatory for members to join each and every event. But, any one is welcome to join anytime. As it is just a group of people capturing moments in their frame there are no time limits or event limits for us. </p>
+
+			<p>There are many ways to attend these events. We usually send out e-mails to members informing about the events and requirements to attend. But, it is up to you if you want to join or not. The best way to keep in touch with the events is through our facebook page. Click the button down below if you want to stay in the loop. Or, simply press "Hide" to hide the link. And, press "Show" if you want to check it out.</p>
+
+<!--This is the Hide/Show External link -->
+			<p class="hideshow"><a href="https://www.facebook.com">Facebook Event Page</a></p>
+			<br>
+			
+			<button id="hide" onClick="myfunction">Hide</button>
+			<button id="show" onClick="myfunction">Show</button>
+			
+			<br> <br>
+
+			<h2>Recent Events</h2>
+
+			<p>There are some events that are done permanently all year round. Such as:</p>
+
+<!-- This is the style changing list -->
+			<ul id="events">
+  				<li>New Year</li>
+  				<li>Valentines Day</li>
+  				<li>St. Patrick day</li>
+  				<li>Easter</li>
+  				<li>Independence day</li>
+  				<li>Halloween</li>
+  				<li>Christmas</li>
+				</ul>
+				<button type="button" onclick="myFunction1()">Numeric version</button>
+
+			<p>You can change the style of the list too if you want to see the numeric occurance of the events. Just click the button up top.
+			<br>
+			So, Don't wait and join today for the adventure of the lifetime. Our HR information is given below if you are interested in joining voluntery job or if you have any question. </p>
+
+ 			<h3>Carrers</h3>
+
+ 			<p>We currently have some job positions open. We need:</p>
+<!-- This is the Jason Perse Objects-->			
+			
+			<p id="demo22"></p>
+			<p id="demo32"></p>
+
+			
+			<script>
+//This is the J Perse 
+			var txt1 = '{"position":"Event manager", "salary":"Voluntery", "area":"Lorton", "experience":"Minimum 5 years", "groupleading":"solo Position"}';
+			
+			var txt2 = '{"position":"Treasurer", "salary":"Voluntery", "area":"Lorton", "experience":"Minimum 2 years", "groupleading":"Team based position"}';
+			
+			var txt3 = '{"position":"Social Site Manager", "salary":"Voluntery", "area":"Lorton", "experience":"Minimum 4 years", "groupleading":"Team based position"}';
+			
+			
+			var obj2 = JSON.parse(txt2);
+			var obj3 = JSON.parse(txt3);
+
+			
+			document.getElementById("demo22").innerHTML = obj2.position + ": It is " + obj2.salary + " Work in " + obj2.area + ". " + obj2.experience + " experience required as it is a " + obj2.groupleading;
+			document.getElementById("demo32").innerHTML = obj3.position + ": It is " + obj3.salary + " Work in " + obj3.area + ". " + obj3.experience + " experience required as it is a " + obj3.groupleading;
+
+		</script>
+				
+			<h3>HR Contacts
+			
+<!-- This is the toggle  to Hide the paragraph-->
+		<p class="resource">
+			Mr. John Mclane
+		<br> Human Resource Director
+		<br> 1234 Virginian Ave. Virginia
+		<br> Contact No# 1-800-Photosy
+		</p>
+		
+		<br>
+		<button id="button" onClick="myfunction">Hide/Show HR Contact</button>
+	<br> <br>
+
+		</h3>
+		
+		<a href="index.html">Home</a>
+
+		
+
+		</body>
+	</html>
